@@ -8,7 +8,9 @@ import Status from './components/Status';
 import Button from './components/Button';
 import Input from "./components/Input"
 import Container from './components/Container'
-import LoggedIn from './components/state/loggedIn';
+import LoggedIn from './components/state/LoggedIn';
+import NewUser from './components/state/NewUser';
+import Counter from './components/state/Counter';
 
 const App = () => {
 
@@ -51,10 +53,9 @@ const App = () => {
           }}>Click Me Doofus</Button>
         </div>
       </Container>
-
       <LoggedIn/>
-
-
+      <NewUser/>
+      <Counter/>
     </div>
   )
 }
